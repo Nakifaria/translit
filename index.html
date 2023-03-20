@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type:="text/css" href="./style.css">
+    <script defer src="./index.js"></script>
+    <title>Транслит</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="title">T.R.A.N.S.L.I.T.</div>
+      <div class="form">
+        <input class="input" type="text" value="Начните вводить текст" />
+        <button class="addButton">Добавить</button>
+      </div>
+      <div class="container">
+        <div class="column1">
+          <div class="inputText">
+            <p class="index">1</p>
+            <p class="russian">Привет 👋🏻</p>
+          </div>
+        </div>
+        <div class="column2">
+          <div class="outputText">
+            <p class="translit">Privet</p>
+            <img class="deleteText" src="./delete.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div>
+        <button class="clearButton">
+          <img class="deleteClear" src="./delete.png" alt="" />
+          <p id="clear">Очистить всё</p>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
